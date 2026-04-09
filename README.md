@@ -19,7 +19,7 @@ I am passionate about learning new tools and improving my technical skills throu
 ---
 
 # Technologies Used
--HTML 
+- HTML 
 - CSS
 - GitHub
 ---
@@ -50,7 +50,7 @@ I am passionate about learning new tools and improving my technical skills throu
 - React-based expense tracking app
 
 *Task Reminder System*
--C# reminder system for task management
+- C# reminder system for task management
 
 *Java To-Do List GUI*
 - Simple desktop app for managing tasks
@@ -89,7 +89,6 @@ I am passionate about learning new tools and improving my technical skills throu
 
 
 # Contact
-
 - Email: anothilebhengu@gmail.com 
 - GitHub: https://github.com/your-username
 
