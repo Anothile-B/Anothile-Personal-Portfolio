@@ -7,7 +7,7 @@ It highlights my development projects, data analytics work, technical skills, an
 ---
 
 #  Live Demo
-*(Add your deployed link here — e.g., GitHub Pages / Netlify)*
+ https://anothile-b.github.io/Anothile-Personal-Portfolio/ 
 
 ---
 
