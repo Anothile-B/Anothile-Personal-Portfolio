@@ -93,13 +93,6 @@ I am passionate about learning new tools and improving my technical skills throu
 
 ---
 
-# Screenshots
-
-*(Add screenshots of your portfolio here if you want)*
-
----
-
-
 # Contact
 - Email: anothilebhengu@gmail.com 
 - GitHub: https://github.com/Anothile-B 
