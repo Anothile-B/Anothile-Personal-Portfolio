@@ -37,36 +37,47 @@ I am passionate about learning new tools and improving my technical skills throu
 
 # Projects Included
 # Development Projects
-*NestStay (Airbnb Clone)*
+*NestStay (Airbnb Web App)*
 - Responsive accommodation booking UI
+- GitHub Link: https://github.com/Anothile-B/NestStay-Airbnb-business-project
+ 
 
 *Vyra (E-commerce Website)*
 - Modern online shopping interface
+- GitHub Link: https://github.com/Anothile-B/Vyra-Ecommerce-App 
+
 
 *Velvet Brew*
 - Coffee shop website design
+- GitHub Link: https://github.com/Anothile-B/Velvet-Brew-Coffee-Shop-Website 
 
 *Finance Budget Tracker*
 - React-based expense tracking app
-- GitHub Link: https://github.com/Anothile-B/Task-Management-System--ASP.NET-MVC- 
+- GitHub Link: https://github.com/Anothile-B/Finance-Budget-Web-App 
+
 
 *Task Reminder System*
 - C# reminder system for task management
+- GitHub Link: https://github.com/Anothile-B/Task-Management-System--ASP.NET-MVC- 
 
 *Java To-Do List GUI*
 - Simple desktop app for managing tasks
+- GitHub Link: https://github.com/Anothile-B/Java-GUI-To-Do-List
 
 ---
 
 # Data Projects
 *Cybersecurity Analysis*
 - Data analysis using Python & Excel
+- GitHub Link: https://github.com/Anothile-B/Cybersecurity-Dashboard-Data-Analytics 
 
 *Retail Data Dashboard*
 - Power BI dashboard for business insights
+- GitHub Link: https://github.com/Anothile-B/PowerBI-Data-Analytics-Portfolio 
 
 *E-Commerce Analytics Dashboard*
 - Data visualization for sales trends
+- GitHub Link: https://github.com/Anothile-B/PowerBI-Data-Analytics-Portfolio 
 
 ---
 
