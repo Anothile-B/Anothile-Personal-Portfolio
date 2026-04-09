@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* BODY */
+/* Body */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f0f4f8;
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER */
+/* Header */
 header {
     text-align: center;
     padding: 60px 20px;
@@ -31,7 +31,7 @@ header p {
     font-size: 1.2em;
 }
 
-/* NAVBAR */
+/* Navbar */
 nav {
     text-align: center;
     padding: 15px;
@@ -58,15 +58,14 @@ nav a:hover {
 }
 
 
-/* Add the "|" after each link */
 nav a:not(:last-child)::after {
     content: "|";
     position: absolute;
     right: -5px;
-    color: #94a3b8; /* soft grey */
+    color: #94a3b8; 
 }
 
-/* SECTION TITLES */
+
 section h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -84,7 +83,7 @@ section h2::after {
     border-radius: 2px;
 }
 
-/* SECTIONS BACKGROUNDS */
+/* Section backgrounds */
 #projects {
     background: linear-gradient(to bottom, #f3f6f7, hsl(212, 33%, 89%));
     padding: 60px 20px;
@@ -106,25 +105,25 @@ section h2::after {
     margin-bottom: 40px;
 }
 
-/* GRID CONTAINERS */
+/* Grid containers */
 .grid, .cert-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* multiple columns per row */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
-    max-width: 1200px; /* prevent grid from stretching too far */
-    margin: 0 auto;     /* center the whole grid */
-    justify-items: center; /* center cards inside columns */
+    max-width: 1200px; 
+    margin: 0 auto;     
+    justify-items: center; 
 }
-/* CARD SIZE */
+/* card sizes */
 .project, .cert-card {
      width: 100%;  
-    max-width: 450px; /* keeps each card from getting too wide */
+    max-width: 450px; 
 }
 
-/* PROJECT CARDS */
+/* Project cards */
 .project {
    position: relative;
-    background: linear-gradient(135deg, #e4e2e2, #fafafa); /* soft gradient */
+    background: linear-gradient(135deg, #e4e2e2, #fafafa); 
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(0,0,0,0.15);
@@ -141,7 +140,7 @@ section h2::after {
     filter: brightness(1.05);
 }
 
-/* PROJECT IMAGE */
+/* project image */
 .project img {
     width: 100%;
     height: auto;
@@ -149,7 +148,7 @@ section h2::after {
     border-radius: 16px 16px 0 0;
 }
 
-/* PROJECT TEXT */
+/* Project text */
 .project-text {
     padding: 20px;
     display: flex;
@@ -168,28 +167,28 @@ section h2::after {
     margin-bottom: 8px;
     color: #334155;
 }
-/* Underlined Project Titles */
+
 .project-title {
     font-size: 1.4em;
-    color: #38bdf8; /* bright blue */
+    color: #38bdf8; 
     position: relative;
-    padding-bottom: 6px; /* space for underline */
-    margin-bottom: 15px;  /* space after title */
+    padding-bottom: 6px; 
+    margin-bottom: 15px;  
 }
 
-/* Gradient underline */
+
 .project-title::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 50%; /* underline length (adjust as needed) */
+    width: 50%; 
     height: 3px; 
     border-radius: 2px;
-    background: linear-gradient(90deg, #38bdf8, #facc15, #22c55e); /* blue → yellow → green */
+    background: linear-gradient(90deg, #38bdf8, #facc15, #22c55e); 
 }
 
-/* CERTIFICATE CARDS */
+/* Certificate cards */
 .cert-card {
     background: linear-gradient(135deg, #fdfbfb, #ebedee); /* subtle gradient */
     padding: 20px;
@@ -210,7 +209,7 @@ section h2::after {
     color: #facc15;
 }
 
-/* EMBED PDF */
+/* Embed PDF */
 .cert-card embed {
     width: 100%;
     height: 400px;
@@ -218,7 +217,7 @@ section h2::after {
     border: none;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
     text-align: center;
     padding: 25px 20px;
@@ -227,7 +226,7 @@ footer {
     box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
 }
 
-/* RESPONSIVE */
+/* Responsive */
 @media (max-width: 768px) {
     nav a {
         display: inline-block;
@@ -239,7 +238,7 @@ footer {
     }
 }
 
-/* BUTTON BASE */
+/* button */
 .btn {
     display: inline-block;
     margin-top: 12px;
@@ -251,9 +250,9 @@ footer {
     transition: all 0.3s ease;
 }
 
-/* GITHUB BUTTON */
+/* github button */
 .github {
-    background: #111827; /* dark modern */
+    background: #111827; 
     color: #fff;
 }
 
@@ -261,23 +260,9 @@ footer {
     background: #374151;
     transform: scale(1.05);
 }
-/*#data .project {
-    min-height: 420px; /* ensures cards aren’t squashed */
-   /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* spreads content evenly */
-/*}
-#data .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    justify-items: stretch; /* makes all cards same height */
-   /* align-items: stretch;   /* important to prevent squashing */
-/*}
-*/
 
 .view-link {
-    margin-top: auto; /* pushes it to bottom */
+    margin-top: auto; 
     text-align: center;
     display: block;
     padding: 12px 0;
@@ -287,7 +272,7 @@ footer {
     transition: all 0.3s ease;
     border-top: 1px solid #d2d7dd;
 }
-/* ABOUT SECTION */
+/* About Section */
 #about {
     background: linear-gradient(to bottom, #ffffff, #e0f2fe);
     padding: 60px 20px;
@@ -303,7 +288,7 @@ footer {
     gap: 40px;
     max-width: 1100px;
     margin: 0 auto;
-    flex-wrap: wrap; /* responsive */
+    flex-wrap: wrap; 
 }
 
 /* Image */
@@ -311,7 +296,7 @@ footer {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 50%; /* makes it a circle */
+    border-radius: 50%; 
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
@@ -325,13 +310,13 @@ footer {
     font-size: 1.05em;
     color: #334155;
 }
-/* About Heading tweak */
+
 .about-text h3 {
     font-size: 1.8em;
     margin-bottom: 10px;
 }
 
-/* Intro highlight */
+
 .about-intro {
     font-size: 1.1em;
     margin-bottom: 20px;
@@ -367,7 +352,7 @@ footer {
     font-size: 0.9em;
     margin-top: 5px;
 }
-/* SKILLS SECTION */
+/* Skills section */
 #skills {
     background: linear-gradient(to bottom, #f8fafc, #e0f2fe);
     padding: 60px 20px;
@@ -380,7 +365,7 @@ footer {
     margin: 0 auto;
 }
 
-/* Each skill */
+
 .skill {
     margin-bottom: 20px;
 }
